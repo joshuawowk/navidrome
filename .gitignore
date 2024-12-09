@@ -20,7 +20,6 @@ dist
 music
 *.db*
 .gitinfo
-docker-compose.yml
 !contrib/docker-compose.yml
 binaries
 taglib
