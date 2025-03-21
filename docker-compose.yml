@@ -13,8 +13,8 @@ services:
       ND_BASEURL: "https://navidrome.jwowk.net"
       ND_DATAFOLDER: "/data"
       ND_MUSICFOLDER: "/music"
-      ND_SPOTIFY_ID: "b76094fd1a834c18906bea38977917ac"
-      ND_SPOTIFY_SECRET: "51f57df3a2fa473991a87f000f1581cf"
+      ND_SPOTIFY_ID: ${SPOTIFY_ID}
+      ND_SPOTIFY_SECRET: ${SPOTIFY_SECRET}
     volumes:
       - "/docker/navidrome/data:/data"
       - "/mnt/storage_box/media/music:/music:ro"
