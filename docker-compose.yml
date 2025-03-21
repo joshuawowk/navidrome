@@ -2,8 +2,8 @@ services:
   navidrome:
     image: deluan/navidrome:latest
     user: "1002:1003" # should be owner of volumes
-    ports:
-      - "4533:4533"
+    # ports:
+    #   - "4533:4533"
     restart: unless-stopped
     environment:
       # Optional: put your config options customization here. Examples:
